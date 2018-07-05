@@ -32,6 +32,20 @@ for i in range(5):
     smart.right(90)
     smart.forward(400)
     
+smart.left(180)
+smart.forward(50)
+
+for i in range(5):
+    smart.right(90)
+    smart.forward(5)
+    smart.left(90)
+    smart.forward(300)
+    smart.right(90)
+    smart.forward(5)
+    smart.left(90)
+    smart.forward(300)
+
+    
 
 
 turtle.done()
